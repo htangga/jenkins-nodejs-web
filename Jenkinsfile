@@ -13,7 +13,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://git.unimed.ac.id/htangga/jenkins-nodejs.git'
+        git 'https://github.com/htangga/jenkins-nodejs-web.git'
       }
     }
 
